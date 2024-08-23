@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #EEE4B1;
+}
+
+/* Container for the main content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling for the header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Styling for the search form */
+.search-form {
+    margin-top: 20px;
+    text-align: center;
+}
+img{
+    margin: 10px;
+    height: 69px;
+}
+
+#company-search[type="text"] {
+    margin: 10px;
+    width: 80%;
+    padding: 6px;
+    border: 4px solid #000000;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.search-form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #333;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-form input[type="submit"]:hover {
+    background: #555;
+}
+
+/* Styling for search results */
+h2 {margin: 10px;
+    margin-top: 20px;
+    color: #522258;
+}
+
+.company-details {
+    margin: 10px;
+    background: #dbded2;
+    border: 1px solid #291485;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 25px;
+    color: #8C3061;
+}
+
+.company.name {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #d71414;
+}
+
+.result-item p {
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .search-form input[type="text"] {
+        width: 100%;
+    }
+
+    .search-form input[type="submit"] {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
